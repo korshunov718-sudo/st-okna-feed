@@ -1,161 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:yandex="http://news.yandex.ru"
+<rss version="2.0"
+     xmlns:yandex="http://news.yandex.ru"
      xmlns:turbo="http://turbo.yandex.ru"
-     version="2.0">
+     xmlns:atom="http://www.w3.org/2005/Atom">
+
 <channel>
+    <title>ST-OKNA — остекление</title>
+    <link>https://st-okna.ru/</link>
+    <description>Услуги остекления</description>
 
-<title>ST-OKNA — остекление, окна, теплицы</title>
-<link>https://st-okna.ru/</link>
-<description>Официальный сайт ST-OKNA: окна, остекление домов и коттеджей, теплицы, алюминиевые окна, зимние сады</description>
+    <!-- Ссылка на сам RSS -->
+    <atom:link href="https://korshunov718-sudo.github.io/st-okna-feed/rss.xml" rel="self" type="application/rss+xml"/>
 
-<!-- =====================
-      1. Главная
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/</link>
-<title>ST-OKNA — окна, остекление, теплицы</title>
-<turbo:content><![CDATA[
-<header>
-<h1>ST-OKNA — окна и остекление под ключ</h1>
-</header>
-<p>Окна, остекление коттеджей, теплицы, зимние сады.</p>
-]]></turbo:content>
-</item>
+    <!-- 1 -->
+    <item turbo="true">
+        <guid isPermaLink="true">https://st-okna.ru/osteklenie-kottedzhej-i-domov/</guid>
+        <link>https://st-okna.ru/osteklenie-kottedzhej-i-domov/</link>
+        <title>Остекление коттеджей и домов</title>
+        <turbo:content>
+            <![CDATA[
+                <h1>Остекление коттеджей и домов</h1>
+                <p>Описание страницы…</p>
+            ]]>
+        </turbo:content>
+    </item>
 
-<!-- =====================
-      2. Остекление коттеджей
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/osteklenie-kottedzhej-i-domov/</link>
-<title>Остекление коттеджей и домов</title>
-<turbo:content><![CDATA[
-<header>
-<h1>Остекление коттеджей и частных домов</h1>
-</header>
-<p>Премиальное остекление любой сложности.</p>
-]]></turbo:content>
-</item>
+    <!-- 2 -->
+    <item turbo="true">
+        <guid isPermaLink="true">https://st-okna.ru/osteklenie-besedok/</guid>
+        <link>https://st-okna.ru/osteklenie-besedok/</link>
+        <title>Остекление беседок</title>
+        <turbo:content>
+            <![CDATA[
+                <h1>Остекление беседок</h1>
+                <p>Описание страницы…</p>
+            ]]>
+        </turbo:content>
+    </item>
 
-<!-- =====================
-      3. Остекление беседок
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/osteklenie-besedok/</link>
-<title>Остекление беседок</title>
-<turbo:content><![CDATA[
-<header><h1>Остекление беседок</h1></header>
-<p>Тёплое и холодное остекление беседок под ключ.</p>
-]]></turbo:content>
-</item>
-
-<!-- =====================
-      4. Тёплые алюминиевые окна
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/teplye-alyuminievye-okna/</link>
-<title>Тёплые алюминиевые окна</title>
-<turbo:content><![CDATA[
-<header><h1>Тёплые алюминиевые окна</h1></header>
-<p>Профессиональные алюминиевые конструкции для домов и коттеджей.</p>
-]]></turbo:content>
-</item>
-
-<!-- =====================
-      5. Зимние сады
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/zimnie-sady/</link>
-<title>Зимние сады под ключ</title>
-<turbo:content><![CDATA[
-<header><h1>Зимние сады</h1></header>
-<p>Строительство зимних садов любой сложности.</p>
-]]></turbo:content>
-</item>
-
-<!-- =====================
-      6. OKNA S-GLASS
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/okna_s-glass/</link>
-<title>Окна S-Glass</title>
-<turbo:content><![CDATA[
-<header><h1>Окна S-Glass</h1></header>
-<p>Энергоэффективные окна нового поколения.</p>
-]]></turbo:content>
-</item>
-
-<!-- =====================
-      7. Теплица
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/teplitca/</link>
-<title>Теплицы под ключ</title>
-<turbo:content><![CDATA[
-<header><h1>Теплицы из поликарбоната</h1></header>
-<p>Прочные теплицы с доставкой и установкой.</p>
-]]></turbo:content>
-</item>
-
-<!-- =====================
-      8. Окна
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/okna/</link>
-<title>Пластиковые окна</title>
-<turbo:content><![CDATA[
-<header><h1>Пластиковые окна</h1></header>
-<p>Окна VEKA, Rehau. Монтаж под ключ.</p>
-]]></turbo:content>
-</item>
-
-<!-- =====================
-      9. Остекление частного дома
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/usluga-osteklenie-chastnogo-doma/</link>
-<title>Остекление частного дома</title>
-<turbo:content><![CDATA[
-<header><h1>Остекление частного дома</h1></header>
-<p>Профессиональное остекление домов и дач.</p>
-]]></turbo:content>
-</item>
-
-<!-- =====================
-      10. Партнёрская программа
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/dlya-dilerov-partnership/</link>
-<title>Партнёрство для дилеров</title>
-<turbo:content><![CDATA[
-<header><h1>Партнёрская программа</h1></header>
-<p>Условия сотрудничества для дилеров и партнёров.</p>
-]]></turbo:content>
-</item>
-
-<!-- =====================
-      11. VEKA производство окон
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/veka-proizvodstvo-okon/</link>
-<title>Окна VEKA — производство</title>
-<turbo:content><![CDATA[
-<header><h1>Производство окон VEKA</h1></header>
-<p>Фабрика окон VEKA. Качество и технологии.</p>
-]]></turbo:content>
-</item>
-
-<!-- =====================
-      12. Отзывы клиентов
-====================== -->
-<item turbo="true">
-<link>https://st-okna.ru/otzivi/</link>
-<title>Отзывы клиентов</title>
-<turbo:content><![CDATA[
-<header><h1>Отзывы клиентов</h1></header>
-<p>Настоящие отзывы о работе ST-OKNA.</p>
-]]></turbo:content>
-</item>
+    <!-- 3 -->
+    <item turbo="true">
+        <guid isPermaLink="true">https://st-okna.ru/teplye-alyuminievye-okna/</guid>
+        <link>https://st-okna.ru/teplye-alyuminievye-okna/</link>
+        <title>Тёплые алюминиевые окна</title>
+        <turbo:content>
+            <![CDATA[
+                <h1>Тёплые алюминиевые окна</h1>
+                <p>Описание страницы…</p>
+            ]]>
+        </turbo:content>
+    </item>
 
 </channel>
 </rss>
+
 
